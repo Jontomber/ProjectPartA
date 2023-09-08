@@ -63,6 +63,7 @@ namespace ProjectPartA_A2
             //Your code to print a receipt
         }
 
+        //Challange, not included in VG critera
         private static void SortArticles(bool sortByName = false)
         {
             //Your code to Sort. Either BubbleSort or SelectionSort
