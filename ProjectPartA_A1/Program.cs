@@ -22,6 +22,7 @@ namespace ProjectPartA_A1
 
         static void Main(string[] args)
         {
+
             ReadArticles();
             PrintReciept();
         }
@@ -29,9 +30,15 @@ namespace ProjectPartA_A1
         private static void ReadArticles()
         {
             //Your code to enter the articles
+        
         Console.WriteLine($"How many articles do you want (between 1 and {_maxNrArticles})");
-        string _sinput = Console.ReadLine();
-        int _dinput = int.Parse(_sinput);
+        string _input = Console.ReadLine();
+        for (nrArticles = 0; nrArticles < 10;)
+        {
+
+            Console.WriteLine($"Vilka articlar ska du ha[]");
+            break;
+        }
         
         
 
